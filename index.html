@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>My Ayurveda Today</title>
   </head>
   <style>
@@ -11,16 +12,56 @@
     }
   </style>
   <body>
-    <h1>My Ayurveda Today</h1>
-    <footer>
-      Coded by
-      <a href="https://www.linkedin.com/in/valentine-vaquette/" target="_blank">
-        Valentine Vaquette</a
-      >, built with
-      <a href="https://github.com/Lilylouise/my-ayurveda-today" target="_blank"
-        >Github</a
-      >
-      hosted on <a href=""
-    </footer>
+    <div class="container">
+      <h1>My Ayurveda Today</h1>
+      <p class="intro-text">
+        This website allows you to get personalised Ayurveda advise on what to
+        eat today, what to do today, according to the current weather where you
+        are, your personal Auyrveda type and your current pains and troubles. In
+        order to provide you with personalised advisde, we first need some
+        information from you below.
+      </p>
+      <h2>Personalised advise (location)</h2>
+      <p class="intro-weather">
+        Ayurveda teaches us that we do not exist in isolation from the natural
+        world, but as an integral part of it, relying on it for our health and
+        well-being. Our bodies are influenced by everything around us and in
+        turn influence the way we relate to nature, the environment where we
+        live, everything we touch, see, eat, or feel. Similarly, our body also
+        gets affected by the various seasons and the changes occurring in them.
+      </p>
+      <form>
+        <input type="search" placeholder="Where are you?" />
+        <input type="submit" value="Search" />
+      </form>
+
+      <p>You are in ...</p>
+      <p>Tuesday, 14:50</p>
+      <p>Humidity level is 25%</p>
+      <p>The windspeed is 5</p>
+      <h2>Who am I</h2>
+      <h2>How am I (doing)</h2>
+      <footer>
+        Coded by
+        <a
+          href="https://www.linkedin.com/in/valentine-vaquette/"
+          target="_blank"
+        >
+          Valentine Vaquette</a
+        >, built with
+        <a
+          href="https://github.com/Lilylouise/my-ayurveda-today"
+          target="_blank"
+        >
+          Github</a
+        >
+        hosted on
+        <a
+          href="https://app.netlify.com/sites/my-ayurveda-today/overview"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
