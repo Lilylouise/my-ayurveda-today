@@ -12,14 +12,10 @@
     />
     <title>My Ayurveda Today</title>
   </head>
-  <style>
-    .footer {
-      font-family: "Courier New", Courier, monospace;
-    }
-  </style>
+  <style></style>
   <body>
     <div class="container">
-      <h1>My Ayurveda Today</h1>
+      <h1 class="page-title">My Ayurveda Today</h1>
       <p class="intro-text">
         This website allows you to get personalised Ayurveda advise on what to
         eat today, what to do today, according to the current weather where you
@@ -36,19 +32,24 @@
         live, everything we touch, see, eat, or feel. Similarly, our body also
         gets affected by the various seasons and the changes occurring in them.
       </p>
-      <form>
-        <input type="search" placeholder="Where are you?" />
-        <input type="submit" value="Search" />
+      <form class="search-elements">
+        <input
+          type="search"
+          placeholder="Where are you?"
+          class="search-input-field"
+        />
+        <input type="submit" value="Search" class="search-button" />
       </form>
-
-      <p>You are in ...</p>
-      <p>Tuesday, 14:50</p>
-      <p>Humidity level is 25%</p>
-      <p>The windspeed is 5</p>
+      <div class="output-from-form">
+        <p class="city">You are in ...</p>
+        <p class="day-and-time">Tuesday, 14:50</p>
+        <p class="humidity">Humidity level is 25%</p>
+        <p class="windspeed">The windspeed is 5</p>
+      </div>
       <h2>Personalised advise - based on how you feel</h2>
       <h2>Personalised advise - based on your type</h2>
 
-      <footer>
+      <footer class="footer">
         Coded by
         <a
           href="https://www.linkedin.com/in/valentine-vaquette/"
